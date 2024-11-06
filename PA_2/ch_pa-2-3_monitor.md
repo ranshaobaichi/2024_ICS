@@ -248,7 +248,7 @@ if(!make_token(e)) {
     *success = false;
     return 0;
 }	
-/* TODO: Implement code to evaluate the expression. */
+/* TO DO: Implement code to evaluate the expression. */
 for(i = 0; i < nr_token; i ++) {
     if(tokens[i].type == '*' && (i == 0 || tokens[i - 1].type == certain type) ) {
         tokens[i].type = DEREF;
